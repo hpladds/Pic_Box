@@ -4,4 +4,4 @@ This project is comprised of three python 3 scripts ("Neo_Fill.py," "picamera_ti
 
 The "Neo_Fill.py" script controls the NeoPixel ring lights; check Adafruit for configuration instuctions. The "picamera_time.py" script controls the Pi Camera module v2, and "stepper_code.py" controls the movement of the stepper motor.
 
-The "bash_sync.sh" script calls all three python scripts. I believe this creates three simultaneously running processes with each process running one of the scripts. This allows me to klugily avoid the more difficult process of writing one python script with multi-processing/threading. 
+The "bash_sync.sh" script calls all three python scripts. This creates simultaneously running processes that run the scripts. This allowed me to klugily avoid the more difficult process of writing one python script with multi-processing/threading. 
