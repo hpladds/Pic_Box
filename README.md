@@ -6,4 +6,4 @@ This project is comprised of three python 3 scripts (Neo_Fill.py, picamera_time.
 "picamera_time.py" controls the Pi Camera module v2.
 "stepper_code.py" controls the movement of the stepper motor.
 
-"bash_sync.sh" script calls all three python scripts. I believe this creates three simultaneously running processes with each process running one of the scripts. This allows me to klugily avoid the more difficult process of writing one python script with multi-processing/threading. 
+The "bash_sync.sh" script calls all three python scripts. I believe this creates three simultaneously running processes with each process running one of the scripts. This allows me to klugily avoid the more difficult process of writing one python script with multi-processing/threading. 
