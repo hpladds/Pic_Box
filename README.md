@@ -1,3 +1,5 @@
+This software controls the Picture_Box that takes several pictures of a single Lego from several different angles. It's used to create a database of images for an AI project which classifies Lego.
+
 This project is comprised of three python 3 scripts (Neo_Fill.py, picamera_time.py and stepper_code.py) and one bash script (bash_sync.sh).
 
 "Neo_Fill.py" controls the NeoPixel ring lights. Check Adafruit for configuration instuctions.
